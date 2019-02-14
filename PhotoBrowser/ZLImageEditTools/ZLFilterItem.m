@@ -68,20 +68,20 @@
     _filterType = filterType;
     NSString *title = nil;
     switch (filterType) {
-        case ZLFilterTypeOriginal: title = @"原图"; break;
-        case ZLFilterTypeSepia: title = @"怀旧"; break;
-        case ZLFilterTypeGrayscale: title = @"黑白"; break;
-        case ZLFilterTypeBrightness: title = @"高亮"; break;
-        case ZLFilterTypeSketch: title = @"素描"; break;
-        case ZLFilterTypeSmoothToon: title = @"卡通"; break;
-        case ZLFilterTypeGaussianBlur: title = @"毛玻璃"; break;
-        case ZLFilterTypeVignette: title = @"晕影"; break;
-        case ZLFilterTypeEmboss: title = @"浮雕"; break;
-        case ZLFilterTypeGamma: title = @"伽马"; break;
-        case ZLFilterTypeBulgeDistortion: title = @"鱼眼"; break;
-        case ZLFilterTypeStretchDistortion: title = @"哈哈镜"; break;
-        case ZLFilterTypePinchDistortion: title = @"凹透镜"; break;
-        case ZLFilterTypeColorInvert: title = @"反色"; break;
+        case ZLFilterTypeOriginal: title = @"オリジナル"; break;
+        case ZLFilterTypeSepia: title = @"ノスタルジック"; break;
+        case ZLFilterTypeGrayscale: title = @"黒と白"; break;
+        case ZLFilterTypeBrightness: title = @"ハイライト"; break;
+        case ZLFilterTypeSketch: title = @"スケッチ"; break;
+        case ZLFilterTypeSmoothToon: title = @"カートゥーン"; break;
+        case ZLFilterTypeGaussianBlur: title = @"曇りガラス"; break;
+        case ZLFilterTypeVignette: title = @"ビネット"; break;
+        case ZLFilterTypeEmboss: title = @"エンボス"; break;
+        case ZLFilterTypeGamma: title = @"ガンマ"; break;
+        case ZLFilterTypeBulgeDistortion: title = @"魚眼レンズ"; break;
+        case ZLFilterTypeStretchDistortion: title = @"歪曲ミラー"; break;
+        case ZLFilterTypePinchDistortion: title = @"凹レンズ"; break;
+        case ZLFilterTypeColorInvert: title = @"反転"; break;
         default: title = nil;
     }
     _titleLabel.text = title;
